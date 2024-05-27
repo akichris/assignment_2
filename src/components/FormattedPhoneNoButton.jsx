@@ -4,7 +4,7 @@ function PhoneNumberHandler({ phone }) {
                                           const [formattedPhoneNo, setPhoneNumber] = useState('');
 
                                           const formatPhoneNumber = (value) => {
-                                                                                  // Format the phone number using the provided code
+                                                                                  
                                                                                   const formattedNumber = value.replace(/(\d{3})(\d{3})(\d{4})/, '($1) -$2-$3');
                                                                                   return formattedNumber;
                                                                                 };
